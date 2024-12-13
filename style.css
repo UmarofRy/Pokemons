@@ -1,0 +1,111 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 400ms;
+
+}
+
+body {
+    color: white;
+    background-color: #555;
+}
+
+#pokemons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+h3 {
+    font-weight: 900px;
+}
+
+
+
+.type {
+    width: 129.48px;
+    height: 40px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+    background: #C4E4FF;
+    color: #555;
+    margin-left: 57px;
+}
+
+.movie {
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 371px;
+    border-radius: 20px;
+    background: brown;
+    transition: all 0.4s liner;
+}
+
+.movie:hover {
+    box-shadow: -3px 15px 20px #ffffff40;
+    inset: 60px;
+    transition: all 0.4s liner;
+    cursor: pointer;
+}
+
+.qizil {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 21px;
+    color: #80007C;
+}
+
+h1 {
+    font-size: 168px;
+    opacity: 40%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+input {
+    width: 609.33px;
+    height: 46px;
+    padding: 9px 27px 9px 12px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 290px;
+    margin-bottom: 30px;
+
+}
+
+select {
+    width: 209.33px;
+    height: 46px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 6px;
+}
+
+.candy {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.candiy {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.soat {
+    position: relative;
+    top: 28px;
+    background-color: cadetblue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umarof</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Umarof Pokemons</h1>
+
+    <input type="text" placeholder="Pokemon qidiring..." oninput="qidir()" />
+
+<select id="select" onchange="sortFunction()">
+    <option value="name">Umarof</option>
+    <option value="name_az">Sort by (A-Z)</option>
+    <option value="name_za">Sort by (Z-A)</option>
+    <option value="num_asc">Sort by Number (1,2)</option>
+    <option value="num_desc">Sort by Number (2,1)</option>
+</select>
+
+
+    <div id="pokemons"></div>
+
+    
+  
+<script src="./script.js"></script>
+</body>
+</html>
